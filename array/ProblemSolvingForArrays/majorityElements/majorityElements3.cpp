@@ -10,7 +10,8 @@ void findMajority(int arr[],int n){
     for(auto i:m){
         if(i.second > n/2){
             count = 1;
-            cout<<"Majority found : "<< i.first<<endl;
+            cout<<"Majority found : "
+            << i.first<<endl;
             break;
         }
     }
